@@ -1,18 +1,24 @@
-[Claude 系統提示詞](https://asgeirtj.github.io/system_prompts_leaks/Anthropic/claude.html)
-
-
-<a href="https://trendshift.io/repositories/14577" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14577" alt="asgeirtj%2Fsystem_prompts_leaks | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
-![CleanShot 2025-09-03 at 02 37 49](https://github.com/user-attachments/assets/22d32e2d-e0c9-4afc-9e72-44b779dac659)
-
-
-# System Prompts Leaks
+# System Prompts Leaks (繁體中文版)
 
 [English](readme.md)
 
-系統提示詞/系統訊息/開發者訊息的收集庫。
+本專案收集了各大 AI 模型的系統提示詞、系統訊息與開發者訊息，並提供高品質的繁體中文（台灣用語）翻譯。
 
-歡迎提交 Pull Requests (PR)。
+## 目錄索引
+
+- [Anthropic](Anthropic/README.md)
+- [Anthropic/old](Anthropic/old/README.md)
+- [Google](Google/README.md)
+- [Misc](Misc/README.md)
+- [OpenAI](OpenAI/README.md)
+- [OpenAI/API](OpenAI/API/README.md)
+- [OpenAI/Old](OpenAI/Old/README.md)
+- [Perplexity](Perplexity/README.md)
+- [xAI](xAI/README.md)
+
+## 參與貢獻
+
+歡迎提交 Pull Requests (PR) 以更新或增加新的提示詞。
 
 ## Star History
 
