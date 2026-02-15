@@ -1,4 +1,4 @@
-[Claude System Prompt](https://asgeirtj.github.io/system_prompts_leaks/Anthropic/claude.html)
+[Claude 系統提示詞](https://asgeirtj.github.io/system_prompts_leaks/Anthropic/claude.html)
 
 
 <a href="https://trendshift.io/repositories/14577" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14577" alt="asgeirtj%2Fsystem_prompts_leaks | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
@@ -8,11 +8,11 @@
 
 # System Prompts Leaks
 
-[繁體中文版 (Traditional Chinese)](README_zh_TW.md)
+[English](readme.md)
 
-Collection of system prompts/system messages/developer messages.
+系統提示詞/系統訊息/開發者訊息的收集庫。
 
-Feel free to do Pull Requests
+歡迎提交 Pull Requests (PR)。
 
 ## Star History
 
