@@ -30,7 +30,7 @@ def generate_progress_md():
             for line in f:
                 if "[x]" in line:
                     # Extract path between []
-                    start = line.find("[") + 4 # skip "[x] ["
+                    start = line.find("[") + 5 # skip "[x] ["
                     end = line.find("]", start)
                     if start > 3 and end > start:
                         path = line[start:end]
@@ -38,7 +38,7 @@ def generate_progress_md():
 
     content = "# Translation Progress\n\n"
     # Special handling for README
-    readme_status = "[x]" if "readme.md" in completed else "[ ]"
+    readme_status = "[x]" if any(path.lower() == "readme.md" for path in completed) else "[ ]"
     content += f"- {readme_status} [README.md](README.md)\n"
     
     for file_path in files:

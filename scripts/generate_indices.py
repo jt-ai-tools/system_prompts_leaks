@@ -71,4 +71,4 @@ def generate_sub_readmes():
 
 if __name__ == "__main__":
     generate_sub_readmes()
-    print("成功生成子目錄 README.md 並更新根目錄索引。")
+    print("成功生成子目錄 INDEX_zh_TW.md 並更新根目錄索引。")
