@@ -1,20 +1,20 @@
 # System Prompts Leaks (繁體中文版)
 
-[English](readme.md)
+[English](README.md)
 
 本專案收集了各大 AI 模型的系統提示詞、系統訊息與開發者訊息，並提供高品質的繁體中文（台灣用語）翻譯。
 
 ## 目錄索引
 
-- [Anthropic](Anthropic/README.md)
-- [Anthropic/old](Anthropic/old/README.md)
-- [Google](Google/README.md)
-- [Misc](Misc/README.md)
-- [OpenAI](OpenAI/README.md)
-- [OpenAI/API](OpenAI/API/README.md)
-- [OpenAI/Old](OpenAI/Old/README.md)
-- [Perplexity](Perplexity/README.md)
-- [xAI](xAI/README.md)
+- [Anthropic](Anthropic/INDEX_zh_TW.md)
+- [Anthropic/old](Anthropic/old/INDEX_zh_TW.md)
+- [Google](Google/INDEX_zh_TW.md)
+- [Misc](Misc/INDEX_zh_TW.md)
+- [OpenAI](OpenAI/INDEX_zh_TW.md)
+- [OpenAI/API](OpenAI/API/INDEX_zh_TW.md)
+- [OpenAI/Old](OpenAI/Old/INDEX_zh_TW.md)
+- [Perplexity](Perplexity/INDEX_zh_TW.md)
+- [xAI](xAI/INDEX_zh_TW.md)
 
 ## 參與貢獻
 

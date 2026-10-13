@@ -1,6 +1,6 @@
 # Translation Progress
 
-- [ ] [readme.md](readme.md)
+- [ ] [README.md](README.md)
 - [ ] [Anthropic/claude-code.md](Anthropic/claude-code.md)
 - [ ] [Anthropic/claude-cowork.md](Anthropic/claude-cowork.md)
 - [ ] [Anthropic/claude-for-excel.md](Anthropic/claude-for-excel.md)

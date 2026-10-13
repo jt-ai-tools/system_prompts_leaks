@@ -28,7 +28,7 @@ def generate_sub_readmes():
         if not pairs:
             continue
             
-        # 生成子目錄 README.md
+        # 生成子目錄 INDEX_zh_TW.md，不覆寫上游 README.md
         title = dir_path.replace('/', ' > ')
         readme_content = f"# {title} 提示詞索引\n\n"
         readme_content += "| 提示詞名稱 | 原文 (English) | 繁體中文 (Chinese) |\n"
@@ -38,15 +38,15 @@ def generate_sub_readmes():
             name = orig.rsplit('.', 1)[0]
             readme_content += f"| {name} | [Original](./{orig}) | [繁體中文](./{trans}) |\n"
             
-        with open(os.path.join(dir_path, 'README.md'), 'w', encoding='utf-8') as f:
+        with open(os.path.join(dir_path, 'INDEX_zh_TW.md'), 'w', encoding='utf-8') as f:
             f.write(readme_content)
             
-        category_links.append((dir_path, os.path.join(dir_path, 'README.md')))
+        category_links.append((dir_path, os.path.join(dir_path, 'INDEX_zh_TW.md')))
 
     # 更新根目錄 README_zh_TW.md
     root_readme = """# System Prompts Leaks (繁體中文版)
 
-[English](readme.md)
+[English](README.md)
 
 本專案收集了各大 AI 模型的系統提示詞、系統訊息與開發者訊息，並提供高品質的繁體中文（台灣用語）翻譯。
 

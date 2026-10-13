@@ -39,7 +39,7 @@ def generate_progress_md():
     content = "# Translation Progress\n\n"
     # Special handling for README
     readme_status = "[x]" if "readme.md" in completed else "[ ]"
-    content += f"- {readme_status} [readme.md](readme.md)\n"
+    content += f"- {readme_status} [README.md](README.md)\n"
     
     for file_path in files:
         status = "[x]" if file_path in completed else "[ ]"
